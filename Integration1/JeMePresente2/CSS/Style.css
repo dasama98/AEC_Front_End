@@ -21,7 +21,7 @@ h2 {
 
 h1,h2{
     color: blue;
-    align:center;
+    text-align:center;
 }
 a:visited{
     color: darkblue;
