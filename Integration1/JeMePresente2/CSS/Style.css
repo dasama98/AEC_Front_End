@@ -12,17 +12,18 @@ p{
     width: 14px;
     text-align: justify;
 }
+
 h1{
-    width: 36px;
+    font-size: 36px;
 }
 h2 {
-    width: 24px;
+   font-size: 24px;
 }
-
 h1,h2{
     color: blue;
     text-align:center;
 }
+
 a:visited{
     color: darkblue;
     text-decoration: none;
@@ -31,7 +32,7 @@ a{
     color: deepskyblue;
 }
 a:visited{
-    text-decoration: none;
+    text-decoration-line: none;
 }
 a:hover{
     text-decoration: underline;
