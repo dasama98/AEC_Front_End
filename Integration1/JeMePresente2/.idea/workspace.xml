@@ -17,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,6 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -52,7 +54,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1573312411338</updated>
-      <workItem from="1573312412457" duration="3998000" />
+      <workItem from="1573312412457" duration="4331000" />
+      <workItem from="1573773698135" duration="314000" />
+      <workItem from="1573774061259" duration="85000" />
+      <workItem from="1574379039097" duration="6917000" />
     </task>
     <servers />
   </component>
@@ -64,7 +69,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

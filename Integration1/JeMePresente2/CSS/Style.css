@@ -1,0 +1,52 @@
+/* TestCSS.ss */
+/*Programmé par david gendron*/
+/*le 21/11/2019*/
+body
+{
+    width:900px;
+    margin: auto;
+    background:url("../img/background.jpg") no-repeat center;
+    background-color: antiquewhite;
+}
+p{
+    width: 14px;
+    text-align: justify;
+}
+h1{
+     width: 36px;
+ }
+h2 {
+    width: 24px;
+}
+
+h1,h2{
+    color: blue;
+    align:center;
+}
+a:visited{
+    color: darkblue;
+    text-decoration: none;
+}
+a{
+    color: deepskyblue;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+img{
+    width: 300px;
+    border-radius: 25px;
+}
+img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+table,th,td{
+    border:1px solid black;
+    width:400px;
+    color:red;
+}
+th{
+    color:green;
+    font-size:20px
+}
