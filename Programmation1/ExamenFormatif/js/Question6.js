@@ -15,12 +15,12 @@ camera = Number(prompt("voulez vous une camera USB a 35$? tapez 1 pour oui ou 2 
 LED=Number(prompt("voulez vous une matrice de LED pour les yeux à 10$ tapez 1 pour oui ou 2 pour non"));
 
 
-if(controleur === "1"){
+if(controleur === 1){
     controleurprix=55;
     document.write("raspberry pi");
     document.write("<br/>")
 }
-    else if(controleur=== "2"){
+    else if(controleur=== 2){
         controleurprix=15;
     document.write("raspberry pi zero");
     document.write("<br/>")
@@ -31,20 +31,20 @@ if(moteurs >=2 && moteurs<= 24){
     document.write(moteurs + " moteurs");
     document.write("<br/>")
 }
-if(camera === "1"){
+if(camera === 1){
     cameraprix=35;
     document.write("camera");
     document.write("<br/>")
 }
-    else if(camera=== "2"){
+    else if(camera === 2){
         cameraprix=0
 }
-if(LED.toLowerCase() ==="1"){
+if(LED.toLowerCase() === 1){
     LEDprix=10;
     document.write("LED");
     document.write("<br/>")
 }
-    else if(LED === "2"){
+    else if(LED ===  2){
         LEDprix=0
 }
 document.write("filament3D");
