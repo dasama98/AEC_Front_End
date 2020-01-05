@@ -1,0 +1,46 @@
+
+@font-face {
+    font-family: StarJedi;
+    src:url(../font/Starjedi.ttf);
+}
+
+body{
+    width: 1000px;
+    background-image:url("../img/etoileMort.jpg");
+    background-repeat: no-repeat;
+    margin: auto;
+    background-color: black;
+}
+h1{
+    font-family: StarJedi;
+    text-align: center;
+    font-size: 140px;
+    margin:0;
+    color:yellow;
+
+}
+h2,h3,h4{
+    color: white;
+    text-align: center;
+}
+h2{
+    font-size: 72px;
+}
+h3{
+    font-size:60px
+}
+h4{
+    font-size: 44px;
+}
+p{
+    text-align: justify;
+    color: white;
+    font-size: 16px;
+}
+img{
+    display: block;
+    margin:auto;
+}
+.films{
+    color:yellow;
+}
