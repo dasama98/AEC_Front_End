@@ -1,0 +1,100 @@
+/*style.css*/
+/*Programmé par david gendron*/
+/*le 27/03/2020*/
+html,body {
+    margin:0;
+    height:100%;
+    background-color: #1b1e21;
+    overflow-x: hidden;
+}
+.acceuil{
+    background-image: url("../img/gamer.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 23% 0;
+
+}
+.League{
+    background-image: url("../img/league.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 23% 0;
+}
+.CoD{
+    background-image: url("../img/CoD.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 23% 0;
+}
+.gold{
+    background-image: url("../img/golden.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 23% 0;
+}
+.LeagueOfLegends{
+    background-image: url("../img/LeagueofLegends.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 23% 0;
+}
+h1{
+    color: red;
+}
+
+.parallax {
+    background-image: url("../img/CoDParallax.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20% 0;
+}
+.parallaxLeague {
+    background-image: url("../img/TFT.jpg");
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 25% 0;
+}
+p,li{
+    font-weight: bold;
+    color: #007bff;
+    font-size: 2rem;
+}
+.couleurIcon{
+    color: white;
+}
+.bgcolor{
+    background-color: #00000f;
+}
+@media only screen and (max-width: 480px){
+    .acceuil{
+        background-image: url("../img/gamer2.jpg");
+    }
+    p,li{
+        font-size: 1rem;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    .League{
+        background-position: center;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+    .acceuil{
+        background-image: url("../img/gamer3.jpg");
+    }
+    .League{
+       background-position: center;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .acceuil{
+        background-image: url("../img/gamer.jpg");
+    }
+}
