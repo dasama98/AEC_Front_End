@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+    <title>ProjectFinal</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="container-fluid h-100 ">
+    <div class="row d-print-none">
+        <input class="form-control text-center mt-5 offset-3 col-6" id="Lettre" type="text" placeholder="Un mot entre 3 et 12 caractères">
+        <input class="mt-5" type="submit" id="buttonGo" name="Go" value="Go">
+
+    </div>
+    <div id="photos" class="row pt-5"></div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="Modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Selectionnez votre Photo</h5>
+                    <button type="button" onclick="FermerModal()" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div id="MonCarousel" class="carousel slide" data-ride="carousel">
+                        <ul class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
+
+                        </ul>
+                        <div class="carousel-inner">
+                            <div onclick="ChangeImg(1)" class="carousel-item active">
+                                <img id="Carousel1" class="img-fluid" src="" alt="Lettre1">
+                            </div>
+                            <div onclick="ChangeImg(2)" class="carousel-item">
+                                <img id="Carousel2" class="img-fluid" src="" alt="Lettre2">
+                            </div>
+                            <div onclick="ChangeImg(3)" class="carousel-item">
+                                <img id="Carousel3" class="img-fluid" src="" alt="Lettre3">
+                            </div>
+                            <div onclick="ChangeImg(4)" class="carousel-item">
+                                <img id="Carousel4" class="img-fluid" src="" alt="Lettre4">
+                            </div>
+                            <div onclick="ChangeImg(5)" class="carousel-item">
+                                <img id="Carousel5" class="img-fluid" src="" alt="Lettre5">
+                            </div>
+                            <a class="carousel-control-next" href="#MonCarousel" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">suivant</span>
+                                <a class="carousel-control-prev" href="#MonCarousel" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Précedent</span>
+                                </a>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" onclick="FermerModal()" data-dismiss="modal">fermer</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container pt-5 d-print-none">
+    <div class="row">
+        <p class="col-12 pt-5">changer la couleur de fond:</p>
+    </div>
+
+        <div class="col p-1" id="rectangleBlanc"></div>
+        <div class="col p-1" id="rectangleBleu"></div>
+        <div class="col p-1" id="rectangleBleuFonce"></div>
+        <div class="col p-1" id="rectangleGris"></div>
+        <div class="col p-1" id="rectangleNoir"></div>
+        <div class="col p-1" id="rectangleRose"></div>
+        <div class="col p-1" id="rectangleRouge"></div>
+</div>
+
+
+
+
+<script src="jquery-3.4.1.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/photo.js"></script>
+
+</body>
+</html>

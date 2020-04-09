@@ -1,0 +1,69 @@
+body{
+    height: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.bordure{
+    border: 2px solid white;
+}
+#photos{
+    padding:3rem;
+}
+#rectangleGris{
+    width:40px;
+    height:40px;
+    background:#62676A;
+    cursor: pointer;
+    display:inline-block;
+    border: 1px solid black;
+}
+#rectangleBlanc {
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+}
+#rectangleBleu {
+    width: 40px;
+    height: 40px;
+    background: #618AAA;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+}
+#rectangleBleuFonce{
+    width: 40px;
+    height: 40px;
+    background: #1b2736;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+}
+#rectangleNoir {
+     width: 40px;
+     height: 40px;
+     background: black;
+     cursor: pointer;
+     display: inline-block;
+     border: 1px solid black;
+}
+#rectangleRose {
+    width: 40px;
+    height: 40px;
+    background: #9A7587;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+#rectangleRouge {
+    width: 40px;
+    height: 40px;
+    background: #8D1E24;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid black;
+}
